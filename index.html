@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michael Burns | Calgary Photographer</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="hero-section">
+        <nav>
+          <div class="logo">
+            <h3>Michael Burns</h3>
+          </div>
+          <div class="nav-bar">
+            <ul class="nav-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+          </div>
+
+          <div class="burger-menu">
+            <input type="checkbox" class="toggle" />
+            <div class="hamburger">
+              <i class="fas fa-align-justify"></i>
+            </div>
+            <div class="menu">
+              <div>
+                <div>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="hero-text">
+          <h1><span>Michael Burns</span></h1>
+          <p><span class="description">Calgary photographer</span></p>
+          <a href="#contact"><button>Slide in my DM's!</button></a>
+        </div>
+        <div class="scroll-down">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="about" class="about-me">
+        <div class="about-me-text">
+          <h2>I'm Michael Burns</h2>
+          <p>I'm a Calgary based photographer</p>
+          <p>
+            some more text about said person and how they do cool things and
+            take cool pictures and some more about his dog DUKE
+          </p>
+        </div>
+        <img src="./assets/images/mike-portrait.jpg" alt="" class="portrait" />
+      </section>
+      <section id="portfolio" class="gallery">
+        <h3>Portfolio</h3>
+        <ul class="gallery-items">
+          <li class="gallery-picture">
+            <img src="./assets/images/portfolio-1.jpg" alt="" />
+          </li>
+          <li class="gallery-picture">
+            <img src="./assets/images/portfolio-2.jpg" alt="" />
+          </li>
+          <li class="gallery-picture">
+            <img src="./assets/images/portfolio-3.jpg" alt="" />
+          </li>
+        </ul>
+      </section>
+      <section id="contact" class="contact-me">
+        <h3>Let's Chat!</h3>
+        <div class="form-section">
+          <form action="https://formspree.io/etrinhh@gmail.com" method="POST">
+            <div class="form-action">
+              <label for="firstName">First Name: </label>
+              <input type="text" name="firstName" />
+            </div>
+            <div class="form-action">
+              <label for="lastName">Last Name: </label>
+              <input type="text" name="lastName" />
+            </div>
+            <div class="form-action">
+              <label for="email"> Your email: </label>
+              <input type="email" name="_replyto" />
+            </div>
+            <div class="form-action">
+              <label for="message"> Your message:</label>
+              <textarea maxlength="1000" name="message"></textarea>
+            </div>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.4690713629316!2d-114.06419647164574!3d51.0444260243589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716ffd8b6c3227%3A0xf1592407377b9781!2sCalgary%20Tower!5e0!3m2!1sen!2sca!4v1612722309358!5m2!1sen!2sca"
+          width="1000"
+          height="400"
+          frameborder="0"
+          style="border: 5px solid black"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </div>
+    </footer>
+  </body>
+</html>
