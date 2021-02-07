@@ -3,8 +3,8 @@
 # Erica Trinh
 
 - Github Links
-  - [GitHub Repo](https://github.com/ertrinhh/CPNT260-a1)
-  - [Github Pages](https://ertrinhh.github.io/CPNT260-a1/)
+  - [GitHub Repo](https://github.com/ertrinhh/cpnt260-a4)
+  - [Github Pages](https://ertrinhh.github.io/cpnt260-a4/)
 
 # Context
 
@@ -26,4 +26,6 @@ My #1 support group:
 
 ## Attributions
 
-All images were provided by Michael
+- All images were provided by Michael
+- <strong>Font Awesome</strong>, [License Here](https://fontawesome.com/license/free)
+- [Youtube hamburger menu](https://youtu.be/DZg6UfS5zYg)
