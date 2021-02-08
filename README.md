@@ -16,6 +16,10 @@ Goal: to create a page for Mike to display his work, and so potential clients ca
 
 For the most part, the page is responsive, except the hamburger menu. It shows on mobile view, but when it's clicked, the text from the home page is still visible because z-index for burger-menu is not 1. However when I use z-index: 1, it messes with the responsiveness of the entire page on mobile and you can't click anything except the burger menu. I will come back to this at a later time to find a way to fix it! For the assignment, it doesn't have to be operable so I will leave it for now.
 
+- update: burger menu works, but only when youre on about me and portfolio page. Otherwise it goes behind because of z-index augh :(
+
+I tried moving my CSS into a separate css folder inside the asset folder, but it broke the images, so I decided to leave it as is in the asset folder. I included the reset and fonts at the top of my style.css file because it didn't take up much room
+
 ## Honorable Mentions
 
 My #1 support group:

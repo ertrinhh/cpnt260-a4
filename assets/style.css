@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Nunito&display=swap");
 
 * {
   box-sizing: border-box;
@@ -82,8 +82,10 @@ nav {
 .description {
   margin: 20px;
   display: block;
+  font-family: "nunito", monospace;
   font-size: 1.2em;
   text-align: center;
+  text-transform: uppercase;
 }
 button {
   padding: 10px 20px;
@@ -214,7 +216,8 @@ button[type="submit"]:hover {
 /* This BURGER menu ruins everything lol
 need to FIX, but this assignment doesnt need a functioning one... 
 so let's pretend that it is working 
-When i try to z-index:1 it ruins the functionality on the entire page*/
+When i try to z-index:1 it ruins the functionality on the entire page
+pretend it doesnt exist for now */
 @media screen and (max-width: 890px) {
   .nav-links {
     display: none;
@@ -305,8 +308,9 @@ When i try to z-index:1 it ruins the functionality on the entire page*/
     color: white;
     text-decoration: none;
     transition: color 0.4s ease;
+    padding: 10px;
   }
   .menu ul li a:hover {
-    color: blue;
+    color: #70f;
   }
 }
